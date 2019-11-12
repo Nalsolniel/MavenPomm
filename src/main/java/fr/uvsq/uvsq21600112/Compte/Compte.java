@@ -13,13 +13,39 @@ public class Compte
 
 	public Compte()
 	{
-		this.solde = 9999999;
+		this.solde = 10000;
 	}
 
 	public int getSolde()
 	{
 		return this.solde;
 	}
-
+	
+	public int crediter(int credit)
+	{
+		if(credit > 0)
+		{
+			return this.solde = this.solde + credit;
+		}
+		return this.solde;
+	}
+	
+	public int debiter(int credit)
+	{
+		if(credit > 0 && this.solde - credit > 0)
+		{
+			return this.solde = this.solde - credit;
+		}
+		return this.solde;
+	}
+	
+	public void virement(Compte aDebiter,int montantTransaction)
+	{
+		if(montantTransaction > 0)
+		{
+			aDebiter.debiter(montantTransaction);
+			this.crediter(montantTransaction);
+		}
+	}
 
 }
