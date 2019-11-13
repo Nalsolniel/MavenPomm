@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.19">
+<file name="/home/darksice/eclipse-workspace/Compte/src/main/java/fr/uvsq/uvsq21600112/Compte/App.java">
+<error line="1" severity="error" message="Le fichier package-info.java est manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="7" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="7" column="1" severity="error" message="Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="8" column="1" severity="error" message="&apos;{&apos; à la colonne 1 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="9" column="5" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="9" column="28" severity="error" message="Il y a une espace de trop après &apos;(&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="9" column="30" severity="error" message="Le paramètre args devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="9" column="44" severity="error" message="Il y a une espace de trop avant &apos;)&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="10" column="5" severity="error" message="&apos;{&apos; à la colonne 5 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="11" column="5" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="11" column="32" severity="error" message="&apos;10000&apos; devrait être défini comme une constante." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="/home/darksice/eclipse-workspace/Compte/src/main/java/fr/uvsq/uvsq21600112/Compte/Compte.java">
+<error line="1" severity="error" message="Il manque un caractère NewLine à la fin du fichier." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="4" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="1" severity="error" message="&apos;{&apos; à la colonne 1 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="7" column="1" severity="error" message="Le fichier contient des caractères de tabulation (ce n&apos;est que la première occurence)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="7" column="9" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="9" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="9" column="23" severity="error" message="Le paramètre a devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="10" column="9" severity="error" message="&apos;{&apos; à la colonne 2 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="14" column="9" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="15" column="9" severity="error" message="&apos;{&apos; à la colonne 2 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="16" column="30" severity="error" message="&apos;10000&apos; devrait être défini comme une constante." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="19" column="9" severity="error" message="Classe &apos;Compte&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;getSolde&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="19" column="9" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="20" column="9" severity="error" message="&apos;{&apos; à la colonne 2 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="23" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="24" column="9" severity="error" message="Classe &apos;Compte&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;crediter&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="24" column="9" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="24" column="29" severity="error" message="Le paramètre credit devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="25" column="9" severity="error" message="&apos;{&apos; à la colonne 2 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="26" column="17" severity="error" message="Il manque une espace après &apos;if&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="27" column="17" severity="error" message="&apos;{&apos; à la colonne 3 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="28" column="43" severity="error" message="Évitez d&apos;affecter une valeur à une variable au sein d&apos;une expression." source="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"/>
+<error line="32" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="33" column="9" severity="error" message="Classe &apos;Compte&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;debiter&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="33" column="9" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="33" column="28" severity="error" message="Le paramètre credit devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="34" column="9" severity="error" message="&apos;{&apos; à la colonne 2 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="35" column="17" severity="error" message="Il manque une espace après &apos;if&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="36" column="17" severity="error" message="&apos;{&apos; à la colonne 3 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="37" column="43" severity="error" message="Évitez d&apos;affecter une valeur à une variable au sein d&apos;une expression." source="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"/>
+<error line="41" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="42" column="9" severity="error" message="Classe &apos;Compte&apos; ressemble conçu pour extension (peut être sous-), mais la méthode&apos;virement&apos; na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe &apos;{0}&apos; finale ou de faire la méthode &apos;{1}&apos; annotation static/final/abstract/empty, ou lajout de permis pour la méthode." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="42" column="9" severity="error" message="Commentaire Javadoc manquant." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="42" column="30" severity="error" message="Le paramètre aDebiter devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="42" column="45" severity="error" message="Il manque une espace après &apos;,&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="42" column="46" severity="error" message="Le paramètre montantTransaction devrait être final." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" column="9" severity="error" message="&apos;{&apos; à la colonne 2 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="44" column="17" severity="error" message="Il manque une espace après &apos;if&apos;." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="45" column="17" severity="error" message="&apos;{&apos; à la colonne 3 devrait être sur la ligne précédente." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+</file>
+</checkstyle>
